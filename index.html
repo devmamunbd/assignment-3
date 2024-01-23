@@ -22,7 +22,7 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2  rounded-box w-52">
-                      <li><a>Home</a></li>
+                      <li><a class="text-[#FF4240]" >Home</a></li>
                       <li><a>About</a></li>
                       <li><a>Pages</a></li>
                       <li><a>Blog</a></li>
@@ -33,7 +33,7 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
+                    <li><a class="text-[#FF4240]" >Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Pages</a></li>
                     <li><a>Blog</a></li>
@@ -47,7 +47,7 @@
               </div>
         </header>
 
-        <div class="banner container mx-auto">
+        <div class="banner container mx-auto relative">
           <div class="carousel w-full ">
             <div id="slide1" class="carousel-item relative w-full h-[500px]">
               <img src="./Images/1.png" class="w-full" />
@@ -84,12 +84,23 @@
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
             </div>
+         
+         
           </div>
+
+          <div class="bg-[#131318] absolute mb py-4 px-3 rounded-md w-full lg:w-[500px]  lg:bottom-10 lg:right-10">
+            <div class="p-5 ">
+              <h1 class="text-white font-bold text-[20px] mb-2">Meet all the heroes from the field</h1>
+              <p class="text-[#ffffff99]">Others are health workers or agriculture experts, working <br> cutting-edge science to the most  earth.</p>
+            </div>
+          </div>
+
+
 
         </div>
 
         <div class="my-10 container mx-auto">
-          <div class="hockey-text text-center">
+          <div class="hockey-text text-center mt-48 md:mt-48 lg:mt-0">
             <h1 class="text-3xl text-black font-bold py-5">Professional Hockeys Club</h1>
             <p class="">A friendly, inclusive club, offering hockey for all, we welcome everyone from aspiring <br> internationals to social players or those who are new to the game.
             </p>
@@ -160,39 +171,17 @@
             <hr class="my-10">
           </div>
 
-
+<!-- 
           <div class="grid gap-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 ">
 
-            <div class="image-box relative ">
-              <img src="./Images/2.png" alt="" class="" >
-              <div class="img-text text-white absolute top-10 p-5">
-                <h1 class="py-2 text-2xl font-bold">Junior Program</h1>
-                <p class="space-y-1">The Junior Professional Associate (JPA) program is a unique opportunity to gain entry-level professional experience and first-hand exposure to the challenges – ...
-                </p>
-                <button class="my-2 bg-[#FF4240] rounded-md px-7 py-2 text-white">Register Now!</button>
-              </div>
-            </div>
-
-            <div class="image-box relative ">
-              <img src="./Images/3.png" alt="">
-              <div class="img-text text-white absolute top-10 p-5">
-                <h1 class="py-2 text-2xl font-bold">Teenager Program</h1>
-                <p class="space-y-1">It's a unique experience for the local teens and the group from Haarlem to have a week long encounter together of Bible study, songs and some great sports ...
-
-                </p>
-                <button class="my-2 bg-[#FF4240] rounded-md px-7 py-2 text-white">Register Now!</button>
-              </div>
-            </div>
-
-            <div class="image-box relative col-span-4 w-[97%]">
-              <img src="./Images/4.png" alt="" class="">
-              <div class="img-text text-white absolute top-10 p-5">
-                <h1 class="py-2 text-2xl font-bold">Professional Program</h1>
-                <p class="space-y-1">The Young Professionals Program (YPP) is an entry-level recruitment program aimed at attracting highly qualified and motivated individuals to ADB. YPP provides.
-                  Professional program means a program that provides information, such as  trends in an industry or discipline, which would benefit the administration or operation
-
-                </p>
-                <button class="my-2 bg-[#FF4240] rounded-md px-7 py-2 text-white">Register Now!</button>
+            <div class="card w-96 bg-base-100 shadow-xl image-full">
+              <figure><img src="./Images/2.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Junior Program</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-start">
+                  <button class="my-2 bg-[#FF4240] rounded-md px-7 py-2 text-white">Register Now!</button>
+                </div>
               </div>
             </div>
 
@@ -201,9 +190,8 @@
 
 
 
-
-
-          </div>
+           
+          </div> -->
          
         </div>
 
@@ -518,7 +506,7 @@
                   <input class="bg-[#13131807] px-3 py-4 w-[313px] rounded-md" type="text" placeholder="Enter your subject">
 
                   <!-- <p class="text-[17px] text-black font-bold">Phone Number</p> -->
-                  <input class="bg-[#13131807] px-3 py-4 w-[313px] rounded-md" type="number" name="" id="" placeholder="Enter your phone number">
+                  <input class="bg-[#13131807] px-3 py-4 w-[313px] rounded-md" type="text" name="" id="" placeholder="Enter your phone number">
                   </div>
 
                  
