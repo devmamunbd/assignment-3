@@ -171,14 +171,43 @@
             <hr class="my-10">
           </div>
 
-<!-- 
-          <div class="grid gap-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 ">
 
-            <div class="card w-96 bg-base-100 shadow-xl image-full">
-              <figure><img src="./Images/2.png" alt="Shoes" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Junior Program</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="grid gap-5 grid-cols-1 md:grid-cols-4 lg:grid-cols-6 ">
+
+
+            <!-- first-card -->
+            <div class="card col-span-1 md:col-span-2 lg:col-span-3 bg-base-100 shadow-xl image-full">
+              <figure><img src="./Images/2.png" alt="" /></figure>
+              <div class="card-body lg:top-20">
+                <h2 class="text-2xl font-bold text-white">Junior Program</h2>
+                <h3 class="text-[#FFF]">The Junior Professional Associate (JPA) program is a unique opportunity to gain entry-level professional experience and first-hand exposure to the challenges</h3>
+                <div class="card-actions justify-start">
+                  <button class="my-2 bg-[#FF4240] rounded-md px-7 py-2 text-white">Register Now!</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- second-card -->
+            <div class="card col-span-1 md:col-span-2 lg:col-span-3 bg-base-100 shadow-xl image-full">
+              <figure><img src="./Images/3.png" alt="" /></figure>
+              <div class="card-body lg:placeholder:top-20">
+                <h2 class="text-2xl font-bold text-white">Teenager Program</h2>
+                <h3 class="text-[#FFF]">It's a unique experience for the local teens and the group from Haarlem to have a week long encounter together of Bible study, songs and some great sports</h3>
+                <div class="card-actions justify-start">
+                  <button class="my-2 bg-[#FF4240] rounded-md px-7 py-2 text-white">Register Now!</button>
+                </div>
+              </div>
+            </div>
+
+
+            
+            <!-- third-card -->
+            <div class="card col-span-6 bg-base-100 shadow-xl image-full">
+              <figure><img src="./Images/4.png" alt="Shoes" /></figure>
+              <div class="card-body lg:top-44">
+                <h2 class="text-2xl font-bold text-white">Professional Program</h2>
+                <h3 class="text-[#FFF]">The Young Professionals Program (YPP) is an entry-level recruitment program aimed at attracting <br> highly qualified and motivated individuals to ADB. YPP provides. Professional program means a program <br> that provides information, such as trends in an industry or discipline.
+                </h3>
                 <div class="card-actions justify-start">
                   <button class="my-2 bg-[#FF4240] rounded-md px-7 py-2 text-white">Register Now!</button>
                 </div>
@@ -187,11 +216,8 @@
 
 
 
-
-
-
            
-          </div> -->
+          </div>
          
         </div>
 
@@ -490,28 +516,44 @@
 
             <div class="border col-span-2 border-[#13131819] p-10">
                 <form action="" class="space-y-4"> 
-                  <div class="flex gap-5">
+                  <div class="flex gap-5 flex-col md:flex-row lg:flex-row">
                 
-                  <input class="bg-[#13131807] px-3 py-4 w-[313px] rounded-md" type="text" name="" id="" placeholder="Enter your full name">
+
+                    <div class="flex flex-col">
+                      <label for="" class="text-[17px] text-black font-bold mb-1">Your Name</label>
+                      <input class="bg-[#13131807] px-3 py-4 md:w-[313px] lg:w-[313px] rounded-md outline-none" type="text" name="" id="" placeholder="Enter your full name">
+                    </div>
 
                  
-                  <!-- <label for="" class="text-[17px] text-black font-bold">Your Email</label> <br> -->
-                  <input class="bg-[#13131807] px-3 py-4 w-[313px] rounded-md" type="text" name="" id="" placeholder="Enter your email">
-                  </div>
+                 <div class="flex flex-col">
+                  <label for="" class="text-[17px] text-black font-bold mb-1">Your Email</label>
+                  <input class="bg-[#13131807] px-3 py-4 md:w-[313px] lg:w-[313px] rounded-md outline-none" type="text" name="" id="" placeholder="Enter your email">
+                 </div>
+                 
+                </div>
 
 
-                  <div class="flex gap-5">
+                <div class="flex gap-5 flex-col md:flex-row lg:flex-row">
+                  <div class="flex flex-col">
                     
-                    <!-- <p class="text-[17px] text-black font-bold">Subject</p> -->
-                  <input class="bg-[#13131807] px-3 py-4 w-[313px] rounded-md" type="text" placeholder="Enter your subject">
-
-                  <!-- <p class="text-[17px] text-black font-bold">Phone Number</p> -->
-                  <input class="bg-[#13131807] px-3 py-4 w-[313px] rounded-md" type="text" name="" id="" placeholder="Enter your phone number">
-                  </div>
+                    <p class="text-[17px] text-black font-bold mb-1">Subject</p>
+                  <input class="bg-[#13131807] px-3 py-4 md:w-[313px] lg:w-[313px] rounded-md outline-none" type="text" placeholder="Enter your subject">
+                </div>
+                
+                <div class="flex flex-col">
+                  <p class="text-[17px] text-black font-bold mb-1">Phone Number</p>
+                  <input class="bg-[#13131807] px-3 py-4 md:w-[313px] lg:w-[313px] rounded-md outline-none" type="text" name="" id="" placeholder="Enter your phone number">
+                </div>
+                 
+                </div>
+                 
 
                  
-                  <textarea name="" id="" cols="30" rows="10" placeholder="Write your message" class="px-3 py-4 w-full bg-[#13131807] rounded-md"></textarea>
+                  <div>
+                    <p class="text-[17px] text-black font-bold mb-1">Message</p>
+                    <textarea name="" id="" cols="30" rows="13" placeholder="Write your message" class="outline-none px-3 py-4 w-full bg-[#13131807] rounded-md"></textarea>
                   <br>
+                  </div>
 
                   <button class="w-full text-white py-2 px-8 bg-[#FF4240] rounded-md">Send Message</button>
                 </form>
@@ -544,7 +586,7 @@
         <a href=""><i class="fa-solid fa-phone text-[#FF4240]">  <span class="text-[#FFFFFF] text-[10px]">
            (+62) 123-321-543</span></i></a>
       </nav> 
-     <div class="flex justify-center gap-20">
+     <div class="flex justify-center gap-28">
       <nav class="space-y-4">
         <header class="py-3 text-2xl font-bold text-white">Company</header> 
         <a class="link link-hover mb-5">About us</a><br>
